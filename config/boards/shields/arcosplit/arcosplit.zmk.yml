@@ -1,0 +1,11 @@
+file_format: "1"
+id: arcosplit
+name: ArcoAplit
+type: shield
+url: https://github.com/ynak-keyboard/zmk-config-arco-split
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - arcosplit_left
+  - arcosplit_right

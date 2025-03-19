@@ -1,0 +1,5 @@
+config SHIELD_ARCOSPLIT_LEFT
+    def_bool $(shields_list_contains,arcosplit_left)
+
+config SHIELD_ARCOSPLIT_RIGHT
+    def_bool $(shields_list_contains,arcosplit_right)
