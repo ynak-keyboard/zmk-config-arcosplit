@@ -13,10 +13,11 @@
 #define L3 3
 
 / {
-    lt {
-        flavor = "balanced";
+    behaviors {
+        lt {
+            flavor = "balanced";
+        };
     };
-
     keymap {
         compatible = "zmk,keymap";
 
